@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Java Presidents</string>
+    <string name="GeorgeWashPic">https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/240px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg</string>
+    <string name="JohnAdamsPic">https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/John_Adams_A18236.jpg/240px-John_Adams_A18236.jpg</string>
+    <string name="TJ_Pic">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg/240px-Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg</string>
+    <string name="JamesMadisonPic">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Madison.jpg/240px-James_Madison.jpg</string>
+    <string name="JamesMonroePic">https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/James_Monroe_White_House_portrait_1819.jpg/240px-James_Monroe_White_House_portrait_1819.jpg</string>
+    <string name="JQA_Pic">https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/John_Quincy_Adams_by_Charles_Osgood.jpg/240px-John_Quincy_Adams_by_Charles_Osgood.jpg</string>
+    <string name="Jackson_Pic">https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Andrew_jackson_head.jpg/240px-Andrew_jackson_head.jpg</string>
+    <string name="MartinVanBurenPic">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Martin_Van_Buren.jpg/330px-Martin_Van_Buren.jpg</string>
+    <string name="WilliamHenryHarrisonPic">https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/William_Henry_Harrison_by_James_Reid_Lambdin%2C_1835_crop.jpg/330px-William_Henry_Harrison_by_James_Reid_Lambdin%2C_1835_crop.jpg</string>
+    <string name="JohnTylerPic">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/John_Tyler_%28cropped_3x4%29.png/330px-John_Tyler_%28cropped_3x4%29.png</string>
+
+</resources>
