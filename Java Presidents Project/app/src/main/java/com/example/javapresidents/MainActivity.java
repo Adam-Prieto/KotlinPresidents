@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity
     Menu menu;
 
     MyJavaClass myApplication = (MyJavaClass) this.getApplication();
-    List<President> presidentList;
+    List<President> presidentListMain;
 
 
     private RecyclerView recyclerView;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        presidentList = myApplication.getPresidentList();
+        presidentListMain = myApplication.getPresidentList();
 
         btnAddOne = findViewById(R.id.btn_addOne);
         btnAddOne.setOnClickListener(new View.OnClickListener()
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new RecycleViewAdapter(presidentList, MainActivity.this);
+        mAdapter = new RecycleViewAdapter(presidentListMain, MainActivity.this);
         recyclerView.setAdapter(mAdapter);
     } // End onCreate
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
         {
             // Sort by ascending name
             case R.id.menu_AtoZ:
-                Collections.sort(presidentList,
+                Collections.sort(presidentListMain,
                                  President.PresidentNameAZComparator);
                 Toast.makeText(getApplicationContext(), "Sorted Name Ascending",
                                Toast.LENGTH_SHORT).show();
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity
 
             // Sort by descending name
             case R.id.menu_ZtoA:
-                Collections.sort(presidentList,
+                Collections.sort(presidentListMain,
                                  President.PresidentNameZAComparator);
                 Toast.makeText(getApplicationContext(),
                                "Sorted Name Descending", Toast.LENGTH_SHORT)
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity
 
             // Sort by ascending date
             case R.id.menu_dateAscending:
-                Collections.sort(presidentList,
+                Collections.sort(presidentListMain,
                                  President.PresidentDateAscendingComparator);
                 Toast.makeText(getApplicationContext(), "Sorted Date Ascending",
                                Toast.LENGTH_SHORT).show();
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity
 
             // Sort by descending date
             case R.id.menu_dateDescending:
-                Collections.sort(presidentList,
+                Collections.sort(presidentListMain,
                                  President.PresidentDateDescendingComparator);
                 Toast.makeText(getApplicationContext(),
                                "Sorted Date Descending", Toast.LENGTH_SHORT)
